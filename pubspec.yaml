@@ -1,0 +1,62 @@
+name: dawaidost_pharmacy_app
+description: "A new Android App for Pharmacy."
+publish_to: 'none'
+version: 1.0.0+150
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  package_info_plus : ^4.0.0 #package for fetching version number and build number during debug runtime
+  carousel_slider: ^5.0.0
+  connectivity_plus: ^4.0.1
+  fluttertoast: ^8.2.8
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5 #to provide a path for simple file access <profile photo for user account> in Android/iOS devices only
+  
+  firebase_core: any
+  firebase_auth: ^5.3.3
+  firebase_storage: ^12.3.6
+  cloud_firestore: ^5.5.1
+  intl: ^0.20.1 #for date time format
+  provider: ^6.1.5 #basic state management among pages
+  flutter_slidable: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.14.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/categoryImages/
+    - assets/DailyPicksIcons/
+    - assets/PlaceHolder Photos/
+    - assets/splash/splash_logo.png
+    - assets/icon_logo_enlarged.png
+    - assets/icon_logo_resized.png
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#ffffff" #bg color splash
+  color_dark: "#000000"
+  image: assets/splash/splash_logo.png
+  android_12:
+    color: "#ffffff" #bg color splash
+    color_dark: "#000000"
+    image: assets/splash/splash_logo.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon_logo_enlarged.png"
+  adaptive_icon_foreground: "assets/icon_logo_enlarged.png"
+  adaptive_icon_background: "#FFFFFF"
+  min_sdk_android: 21

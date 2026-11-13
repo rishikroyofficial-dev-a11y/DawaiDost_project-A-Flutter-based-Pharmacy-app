@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "65766435792",
+    "firebase_url": "https://medicine-e-commerce-system-default-rtdb.firebaseio.com",
+    "project_id": "medicine-e-commerce-system",
+    "storage_bucket": "medicine-e-commerce-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65766435792:android:968cec28f6f3598610a7d5",
+        "android_client_info": {
+          "package_name": "com.example.dawaidost_pharmacy_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEd4BlzeACHgXM0hOpNFQcuXY-itWCtJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
